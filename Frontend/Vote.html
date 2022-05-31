@@ -1,0 +1,36 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="list">
+        <div class="list1">
+            <div class="option"  ><input type="radio" name="contender" value="1" class="input_vote"> <p class="vote_text">Vakanda Right</p></div>
+            <div class="option" ><input type="radio"name="contender" value="2" class="input_vote"><p class="vote_text"> Vakanda Left</p></div>
+            <div class="option" ><input type="radio" name="contender" value="3" class="input_vote"><p class="vote_text"> Vakanda Za Kralja</p></div>
+        </div>
+
+        <input type="number" id="token" class="token_input" >
+
+
+        <button class="submit_vote" onclick="VOTE()">VOTE</button>
+
+        <button class="leaders" id="leaders" onclick="Leaderboard()">Leaderboard</button>
+        <div>
+            <p id="First" class="leaderboard_text"></p><br>
+            <p id="Second" class="leaderboard_text"></p><br>
+            <p id="Third" class="leaderboard_text"></p><br>
+        </div>
+
+</div>
+
+
+    <script  src="main.js"></script>
+</body>
+</html>
