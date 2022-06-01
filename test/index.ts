@@ -3,6 +3,7 @@ import { BigNumberish, Signer } from "ethers";
 import { ethers } from "hardhat";
 import { Election, WakandaToken } from "../typechain";
 
+
 let ElectionFactory
 let election: Election
 
@@ -24,6 +25,7 @@ describe("Election", function () {
     WakandaFactory = await ethers.getContractFactory("WakandaToken")
     wakanda = await WakandaFactory.deploy()
     await wakanda.deployed()
+     
 
     ElectionFactory = await ethers.getContractFactory("Election")
     election = await ElectionFactory.deploy(wakanda.address)
@@ -156,8 +158,8 @@ describe("Election", function () {
   })
 
   it("should check for the owner", async () => {
-    let depoyer = await (await ethers.getSigners())[0].getAddress()
-    expect(await election.owner()).to.be.eq(depoyer)
+    let deployer = await (await ethers.getSigners())[0].getAddress()
+    expect(await election.owner()).to.be.eq(deployer)
   })
 });
 
