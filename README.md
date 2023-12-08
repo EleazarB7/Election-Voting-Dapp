@@ -78,9 +78,9 @@ This project consists of two Solidity smart contracts that together create a tok
 - NewChallenger: Triggered when a new candidate becomes one of the top three candidates.
 - VoteCasted: Triggered when a vote is cast.
 ## Usage
-1.Deploy the Election contract, providing the address of the WakandaToken contract.
-2.Register candidates using the registerCandidate function.
-3.Cast votes for candidates using the castVote function.
+- Deploy the Election contract, providing the address of the WakandaToken contract.
+- Register candidates using the registerCandidate function.
+- Cast votes for candidates using the castVote function.
 ## Note
 - The WakandaToken contract is an ERC-20 token with added functionality to register addresses.
 - The Election contract manages an election system where candidates can be registered, and users can cast votes for their preferred candidates.
