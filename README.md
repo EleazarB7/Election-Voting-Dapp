@@ -55,13 +55,13 @@ This project consists of two Solidity smart contracts that together create a tok
 - Type: ERC-20 Token
 - Inheritance: ERC20, Ownable
 ## Functions
-- constructor: Initializes the WakandaToken with the name "Wakanda" and the symbol "WKND".
-- register: Allows the owner to register an address to receive Wakanda tokens.
+- 'constructor': Initializes the WakandaToken with the name "Wakanda" and the symbol "WKND".
+- 'register': Allows the owner to register an address to receive Wakanda tokens.
 ## Events
-- CandidateAdded: Triggered when a new candidate is added to the election.
+- 'CandidateAdded': Triggered when a new candidate is added to the election.
 ## Usage
-- Deploy the WakandaToken contract.
-- Register addresses to receive Wakanda tokens using the register function.
+- Deploy the 'WakandaToken' contract.
+- Register addresses to receive Wakanda tokens using the 'register' function.
 # 2. Election Contract
 ## Smart Contract Details
 - Name: Election
@@ -69,18 +69,18 @@ This project consists of two Solidity smart contracts that together create a tok
 ## Libraries
 - Sort: Implements a quicksort algorithm for sorting an array of candidates.
 ## Structs
-- Candidate: Represents information about a candidate, including their id, name, culture, age, and votes.
+- 'Candidate': Represents information about a candidate, including their id, name, culture, age, and votes.
 ## Functions
-- registerCandidate: Allows the owner to register a new candidate for the election.
-- castVote: Allows registered users to cast votes for candidates.
+- 'registerCandidate': Allows the owner to register a new candidate for the election.
+- 'castVote': Allows registered users to cast votes for candidates.
 ## Events
-- CandidateAdded: Triggered when a new candidate is registered for the election.
-- NewChallenger: Triggered when a new candidate becomes one of the top three candidates.
-- VoteCasted: Triggered when a vote is cast.
+- 'CandidateAdded': Triggered when a new candidate is registered for the election.
+- 'NewChallenger': Triggered when a new candidate becomes one of the top three candidates.
+- 'VoteCasted': Triggered when a vote is cast.
 ## Usage
 - Deploy the Election contract, providing the address of the WakandaToken contract.
-- Register candidates using the registerCandidate function.
-- Cast votes for candidates using the castVote function.
+- Register candidates using the 'registerCandidate' function.
+- Cast votes for candidates using the 'castVote' function.
 ## Note
 - The WakandaToken contract is an ERC-20 token with added functionality to register addresses.
 - The Election contract manages an election system where candidates can be registered, and users can cast votes for their preferred candidates.
