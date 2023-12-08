@@ -51,7 +51,7 @@ This project consists of two Solidity smart contracts that together create a tok
 
 # 1. WakandaToken Contract
 ## Smart Contract Details
-- **Name**: WakandaToken
+- **Name*: WakandaToken
 - **Type**: ERC-20 Token
 - **Inheritance**: ERC20, Ownable
 ## Functions
