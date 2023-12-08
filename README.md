@@ -51,9 +51,9 @@ This project consists of two Solidity smart contracts that together create a tok
 
 # 1. WakandaToken Contract
 ## Smart Contract Details
-- Name: WakandaToken
-- Type: ERC-20 Token
-- Inheritance: ERC20, Ownable
+- **Name**: WakandaToken
+- **Type**: ERC-20 Token
+- **Inheritance**: ERC20, Ownable
 ## Functions
 - 'constructor' : Initializes the WakandaToken with the name "Wakanda" and the symbol "WKND".
 - 'register' : Allows the owner to register an address to receive Wakanda tokens.
@@ -64,8 +64,8 @@ This project consists of two Solidity smart contracts that together create a tok
 - Register addresses to receive Wakanda tokens using the 'register' function.
 # 2. Election Contract
 ## Smart Contract Details
-- Name: Election
-- Inheritance: Ownable
+- **Name**: Election
+- **Inheritance**: Ownable
 ## Libraries
 - Sort: Implements a quicksort algorithm for sorting an array of candidates.
 ## Structs
@@ -82,5 +82,5 @@ This project consists of two Solidity smart contracts that together create a tok
 - Register candidates using the 'registerCandidate' function.
 - Cast votes for candidates using the 'castVote' function.
 ## Note
-- The WakandaToken contract is an ERC-20 token with added functionality to register addresses.
-- The Election contract manages an election system where candidates can be registered, and users can cast votes for their preferred candidates.
+- The **WakandaToken contract** is an ERC-20 token with added functionality to register addresses.
+- The **Election contract** manages an election system where candidates can be registered, and users can cast votes for their preferred candidates.
