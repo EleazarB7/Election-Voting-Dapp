@@ -68,6 +68,7 @@ This project consists of two Solidity smart contracts that together create a tok
 - **Inheritance**: Ownable
 ## Libraries
 - Sort: Implements a quicksort algorithm for sorting an array of candidates.
+- Openzeppelin smart contract librarie
 ## Structs
 - 'Candidate' : Represents information about a candidate, including their id, name, culture, age, and votes.
 ## Functions
